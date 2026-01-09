@@ -1,0 +1,13 @@
+package com.lms.model;
+
+public class Member extends Person {
+
+  public Member(int id, String name) {
+    super(id, name);
+  }
+
+  @Override
+  public String getRole() {
+    return "Library Member";
+  }
+}
